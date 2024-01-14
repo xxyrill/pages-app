@@ -1,2 +1,2 @@
-gunicorn pages_project.asgi:application --worker-class uvicorn.workers.UvicornWorker
+web: gunicorn pages_project.wsgi --log-file -
 
