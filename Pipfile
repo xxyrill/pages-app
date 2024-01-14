@@ -4,7 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-gunicorn = "==19.9.0"
+gunicorn = "*"
+waitress = "*"
 
 [dev-packages]
 

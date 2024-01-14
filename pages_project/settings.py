@@ -61,6 +61,9 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [os.path.join(BASE_DIR, 'templates')], # new
+
+        # l63, 'templates' is pointing to the templates folder which contains the html files
+
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

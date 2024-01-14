@@ -8,4 +8,4 @@ class HomePageView(TemplateView):
 class AboutPageView(TemplateView):
     template_name = 'about.html'
 
-# l5, class name is always capitalized thus HomePageView
+# l5, class name is always capitalized, thus HomePageView
